@@ -3,10 +3,14 @@ import malha from '../images/Logo Malharro-06.png';
 import prom from '../images/Calificacion coder-07.png';
 import coder from '../images/Logo CODER-05.png';
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 export default function Educacion() {
 	return (
 		<div>
+			<div className="flex sm:justify-center justify-start ">
+				<NavBar />
+			</div>
 			<h1 className="text-2xl text-amber-400 pl-4 pb-8 pt-8 sm:pt-32	 text-3xl sm:text-6xl font-bold sm:ml-8">
 				Educación
 			</h1>

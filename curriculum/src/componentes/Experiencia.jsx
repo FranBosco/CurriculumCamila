@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 export default function Experiencia() {
 	return (
 		<div>
+			<div className="flex sm:justify-center justify-start ">
+				<NavBar />
+			</div>
 			<div>
 				<h1 className="text-2xl text-amber-400 pl-4 pb-8 pt-8 sm:pt-32	 text-3xl sm:text-6xl font-bold sm:ml-8">
 					{' '}

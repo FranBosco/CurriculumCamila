@@ -1,10 +1,14 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
+import NavBar from './NavBar';
 
 export default function InformacioPersonal() {
 	return (
 		<div>
+			<div className="flex sm:justify-center justify-start ">
+				<NavBar />
+			</div>
 			<div>
 				<h1 className="text-amber-400 text-3xl sm:text-6xl pt-10 sm:pt-20 font-bold pb-10 pl-4 sm:pl-8">
 					Información personal

@@ -6,10 +6,9 @@ body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	color: white;
-	background: url('./images/fondo0.jpg');
-	background-repeat: no-repeat;
-	width: 100%;
-	background-position: center;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url('./images/fondo0.jpg');
+
 	background-size: cover;
 }
 
