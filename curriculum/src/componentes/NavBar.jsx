@@ -3,7 +3,6 @@ import {
 	Navbar,
 	MobileNav,
 	Typography,
-	Button,
 	IconButton
 } from '@material-tailwind/react';
 
@@ -21,7 +20,7 @@ export default function Example() {
 		<ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
 			<Typography
 				as="li"
-				variant="small"
+				variant="medium"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
@@ -31,7 +30,7 @@ export default function Example() {
 			</Typography>
 			<Typography
 				as="li"
-				variant="small"
+				variant="medium"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
@@ -41,7 +40,7 @@ export default function Example() {
 			</Typography>
 			<Typography
 				as="li"
-				variant="small"
+				variant="medium"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
@@ -54,13 +53,14 @@ export default function Example() {
 			</Typography>
 			<Typography
 				as="li"
-				variant="small"
+				variant="medium"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
 				<a
 					target="_blank"
-					href="https://linkedin.com/in/camila-bosco"
+					rel="noreferrer"
+					href="https://www.linkedin.com/in/camila-bosco-5288951b4/"
 					className="p-1 font-normal"
 				>
 					LinkedIn
@@ -68,12 +68,13 @@ export default function Example() {
 			</Typography>
 			<Typography
 				as="li"
-				variant="small"
+				variant="medium"
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
 				<a
 					target="_blank"
+					rel="noreferrer"
 					href="https://behance.net/camilabosco2"
 					className="p-1 font-normal"
 				>

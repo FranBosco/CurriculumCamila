@@ -1,6 +1,5 @@
 import React from 'react';
-import { BsLinkedin } from 'react-icons/bs';
-import { ImBehance2 } from 'react-icons/im';
+
 import { Link } from 'react-router-dom';
 
 export default function InformacioPersonal() {
@@ -36,10 +35,11 @@ export default function InformacioPersonal() {
 						</h3>
 						<a
 							target="_blank"
-							href="https://linkedin.com/in/camila-bosco"
+							rel="noreferrer"
+							href="https://www.linkedin.com/in/camila-bosco-5288951b4/"
 							className="text-xl underline"
 						>
-							linkedin.com/in/camila-bosco
+							linkedin.com/in/camila-bosco-5288951b4/
 						</a>
 					</div>
 					<div className="flex flex-col">
@@ -48,6 +48,7 @@ export default function InformacioPersonal() {
 						</h3>
 						<a
 							target="_blank"
+							rel="noreferrer"
 							href="https://behance.net/camilabosco2"
 							className="text-xl underline"
 						>

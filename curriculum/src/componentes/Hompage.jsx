@@ -293,8 +293,6 @@ import { SiAdobeaftereffects } from 'react-icons/si';
 import { SiAdobephotoshop } from 'react-icons/si';
 import { SiAdobexd } from 'react-icons/si';
 import { Icon } from '@iconify/react';
-import { Link } from 'react-router-dom';
-import { MdSubdirectoryArrowRight } from 'react-icons/md';
 import NavBar from './NavBar';
 
 export default function HomePage() {
@@ -540,32 +538,6 @@ export default function HomePage() {
 						</div>
 					</li>
 				</ul>
-			</div>
-			<div className="sm:pl-48 sm:pr-48 sm:pt-20 pt-8">
-				<h1 className="text-2xl text-amber-400 pb-4 sm:pb-8 font-bold  sm:text-5xl flex px-4">
-					Links
-				</h1>
-				<div>
-					<Link to="/info" className="flex ml-4 sm:mb-4 hover:text-amber-400">
-						<MdSubdirectoryArrowRight className="mr-2 text-2xl sm:mr-4 sm:text-4xl" />
-						<h1 className="text-xl sm:text-2xl ">Informacion Personal</h1>
-					</Link>
-					<Link
-						to="/educacion"
-						className="flex ml-4 sm:mb-4 hover:text-amber-400"
-					>
-						<MdSubdirectoryArrowRight className="mr-2 text-2xl sm:mr-4 sm:text-4xl" />
-						<h1 className="text-xl sm:text-2xl">Educación</h1>
-					</Link>
-
-					<Link
-						to="/experiencia"
-						className="flex ml-4 sm:mb-4 hover:text-amber-400"
-					>
-						<MdSubdirectoryArrowRight className="mr-2 text-2xl sm:mr-4 sm:text-4xl" />
-						<h1 className="text-xl sm:text-2xl">Experiencia</h1>
-					</Link>
-				</div>
 			</div>
 		</div>
 	);
