@@ -24,7 +24,10 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="http://localhost:3000/info" className="flex items-center">
+				<a
+					href="https://curriculum-camila.vercel.app/info"
+					className="flex items-center"
+				>
 					Información personal
 				</a>
 			</Typography>
@@ -34,7 +37,10 @@ export default function Example() {
 				color="blue-gray"
 				className="p-1 font-normal"
 			>
-				<a href="http://localhost:3000/educacion" className="flex items-center">
+				<a
+					href="https://curriculum-camila.vercel.app/educacion"
+					className="flex items-center"
+				>
 					Educación
 				</a>
 			</Typography>
@@ -45,7 +51,7 @@ export default function Example() {
 				className="p-1 font-normal"
 			>
 				<a
-					href="http://localhost:3000/experiencia"
+					href="https://curriculum-camila.vercel.app/experiencia"
 					className="flex items-center"
 				>
 					Experiencia

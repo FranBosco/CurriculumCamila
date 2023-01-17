@@ -305,7 +305,7 @@ export default function HomePage() {
 				<img src={foto} alt="" className="w-36 h-36  sm:w-64 sm:h-64 " />
 
 				<div className="pl-6 sm:pl-20">
-					<h1 className="text-2xl sm:text-7xl sm:font-bold pt-2 sm:pt-8 ">
+					<h1 className="text-2xl sm:text-7xl sm:font-bold pt-8 sm:pt-8 ">
 						Bosco Camila
 					</h1>
 					<h2 className="sm:text-5xl text-amber-400 sm:text-bold sm:pt-4">
