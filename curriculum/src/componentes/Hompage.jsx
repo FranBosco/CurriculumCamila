@@ -297,7 +297,7 @@ import NavBar from './NavBar';
 
 export default function HomePage() {
 	return (
-		<div className="flex flex-col ">
+		<div className="flex flex-col  ">
 			<div className="flex sm:justify-center justify-start ">
 				<NavBar />
 			</div>
@@ -316,7 +316,7 @@ export default function HomePage() {
 					</h2>
 				</div>
 			</div>
-			<div className="sm:pl-48 sm:pr-48 sm:pt-20 pt-8">
+			<div className="sm:pl-32 sm:pr-48 sm:pt-20 pt-8">
 				<h1 className="text-2xl text-amber-400 pb-4 px-4 font-bold  sm:text-5xl sm:pb-8 ">
 					Sobre mí
 				</h1>
@@ -332,7 +332,7 @@ export default function HomePage() {
 					responsable.
 				</p>
 			</div>
-			<div className="sm:pl-48 sm:pr-48 sm:pt-20 pt-8">
+			<div className="sm:pl-32 sm:pr-48 sm:pt-20 pt-8">
 				<h1 className="text-2xl text-amber-400 pb-4 sm:pb-8 font-bold  sm:text-5xl flex px-4">
 					Mis intereses
 				</h1>
@@ -373,7 +373,7 @@ export default function HomePage() {
 				</ul>
 			</div>
 
-			<div className="sm:pl-48 sm:pr-48 sm:pt-20 pt-8">
+			<div className="sm:pl-32 sm:pr-48 sm:pt-20 pt-8 max-w-screen">
 				<h1 className="text-2xl text-amber-400 pb-4 sm:pb-8 font-bold  sm:text-5xl flex px-4">
 					Skills
 				</h1>
